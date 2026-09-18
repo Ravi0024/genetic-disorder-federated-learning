@@ -1,0 +1,12 @@
+{
+    "client_id": 1,
+    "original_samples": 15000,
+    "training_samples": 12000,
+    "testing_samples": 3000,
+    "input_features_before_encoding": 27,
+    "processed_features": 56,
+    "number_of_classes": 16,
+    "target": "Disorder",
+    "random_state": 42,
+    "test_size": 0.2
+}

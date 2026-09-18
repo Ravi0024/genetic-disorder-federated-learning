@@ -1,0 +1,50 @@
+{
+    "total_records": 30000,
+    "number_of_clients": 2,
+    "records_per_client": {
+        "client_1": 15000,
+        "client_2": 15000
+    },
+    "train_test_ratio": "80/20",
+    "client_1_training": 12000,
+    "client_1_testing": 3000,
+    "client_2_training": 12000,
+    "client_2_testing": 3000,
+    "input_features": [
+        "Age",
+        "Hemoglobin",
+        "RBC",
+        "WBC",
+        "Platelets",
+        "PCV",
+        "MCV",
+        "MCH",
+        "MCHC",
+        "RDW",
+        "Neutrophils",
+        "Lymphocytes",
+        "Monocytes",
+        "Eosinophils",
+        "Basophils",
+        "Gene_Count",
+        "Variant_Count",
+        "Variant_Length",
+        "Allele_Frequency",
+        "Pathogenicity_Score",
+        "Conservation_Score",
+        "Mutation_Count",
+        "Heterozygosity",
+        "Sex",
+        "Variant_Type",
+        "Origin",
+        "Chromosome"
+    ],
+    "number_of_input_features": 27,
+    "number_of_disorder_classes": 16,
+    "target": "Disorder",
+    "federated_clients": [
+        "Client 1",
+        "Client 2"
+    ],
+    "federated_algorithm": "FedAvg"
+}
